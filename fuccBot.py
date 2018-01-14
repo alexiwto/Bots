@@ -1,3 +1,4 @@
+#https://twitter.com/fuccword
 import tweepy
 import tweepy, time
 from tweepy import OAuthHandler
