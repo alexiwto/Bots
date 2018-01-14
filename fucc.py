@@ -7,10 +7,11 @@ fuck = 'fucc '
 palabro = ''
 fuckpalabro = ''
 palabras = []
-consumer_key = 'ZNWYFFR07TlyRydvE2OdOAFEb'
-consumer_secret = 'mDIw8exelAcSWev83d0JfibelI6SAdBjY7sVRnFjnw4TcXYbms'
-access_token = '951760098879209472-hMPIKjmtkql6WHbiO3S6LOJJhDrTqp4'
-access_secret = 'cvuc0xHfGYWCAF3o0seizBGXwYBpFFU9NaPH0u8z8CJmD'
+
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 
 auth = OAuthHandler(consumer_key, consumer_secret)
@@ -18,7 +19,7 @@ auth.set_access_token(access_token, access_secret)
 tweetBot = tweepy.API(auth)
 
 def palabraRandom():
-        with open('/root/python/palabrasIngles.txt', 'r', encoding='utf-8') as file:
+        with open('palabrasIngles.txt', 'r', encoding='utf-8') as file:
                 for palabra in file:
                         palabras.append(palabra)
         file.close()
