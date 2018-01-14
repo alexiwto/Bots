@@ -13,10 +13,11 @@ consumer_secret = ''
 access_token = ''
 access_secret = ''
 
-
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 tweetBot = tweepy.API(auth)
+
+
 
 def palabraRandom():
         with open('palabrasIngles.txt', 'r', encoding='utf-8') as file:
@@ -31,6 +32,5 @@ def palabraRandom():
 
 palabro = palabraRandom().replace("\n", "")
 fuckpalabro = (fuckpalabro.join([fuck,palabro]))
-
 
 tweetBot.update_status(fuckpalabro)
