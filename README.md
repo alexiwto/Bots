@@ -1,3 +1,2 @@
-# Bots
-
-Bots automatizados (python)
+# Python
+Proyectos realizados con Python.
