@@ -1,3 +1,4 @@
+#Juego Snake completo usando el módulo turtle.
 import turtle
 import time
 import random
