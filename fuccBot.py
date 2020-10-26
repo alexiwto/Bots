@@ -1,4 +1,5 @@
-#https://twitter.com/fuccword
+#Bot de twitter que coge una palabra aleatoria y la tuitea con fuck antes.
+#Ejemplo: https://twitter.com/fckeveryword
 import tweepy
 import tweepy, time
 from tweepy import OAuthHandler
