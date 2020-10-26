@@ -8,7 +8,7 @@ import urllib.parse
 from glob import glob
 import sys
 import config
-#config es una carpeta con las credenciales de la cuenta de reddit en la que corre la app.
+#config es un archivo python con las credenciales de la cuenta de reddit en la que corre la app.
 
 
 ACCESS_TOKEN = ''
